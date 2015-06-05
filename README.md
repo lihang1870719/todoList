@@ -9,7 +9,7 @@
 6. async 流程控制
 7. supervisor 自动重启应用
 
-笔记：
+### 笔记：
 1. req.query: 处理get请求，获取get请求的参数
 2. req.params: 处理类似/:xxx形式的get或者post请求，获取请求的参数
 3. req.body: 处理post请求，获取post请求体
