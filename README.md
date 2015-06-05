@@ -10,7 +10,7 @@
 7. supervisor 自动重启应用
 
 笔记：
-req.query: 处理get请求，获取get请求的参数
-req.params: 处理类似/:xxx形式的get或者post请求，获取请求的参数
-req.body: 处理post请求，获取post请求体
-req.param(): 处理get和post请求，但是查找优先级为req.params->req.body->req.query
+1. req.query: 处理get请求，获取get请求的参数
+2. req.params: 处理类似/:xxx形式的get或者post请求，获取请求的参数
+3. req.body: 处理post请求，获取post请求体
+4. req.param(): 处理get和post请求，但是查找优先级为req.params->req.body->req.query
